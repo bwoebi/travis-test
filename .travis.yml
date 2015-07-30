@@ -9,4 +9,4 @@ before_script:
   - phpenv rehash
 
 script:
-  - $(php -r 'if (PHP_MAJOR_VERSION >= 7) echo "phpdbg -qrr"; else echo "php";') test.php
+  - phpdbg -qrr test.php
