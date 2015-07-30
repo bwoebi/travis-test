@@ -1,1 +1,3 @@
-<?="it works!";?>
+<?php
+
+fwrite(STDERR, "It works!");
