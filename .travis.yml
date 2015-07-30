@@ -5,8 +5,5 @@ language: php
 php:
   - 7
 
-before_script:
-  - phpenv rehash
-
 script:
   - phpdbg -qrr test.php
